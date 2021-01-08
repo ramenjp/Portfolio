@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "target": "ES6"
+    // "rootDir": "./",                       /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
+  }
+}

@@ -1,0 +1,269 @@
+@charset "UTF-8";
+@import url(/Users/koba/Library/Mobile Documents/com~apple~CloudDocs/web/取引先会社/クラウドワークス/portfolio/css/style.css);
+/*******************************************************
+                    Responsive 
+*******************************************************/
+@media screen and (min-width: 1025px) {
+  .pc_part {
+    display: block;
+  }
+  .sp_part {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .pc_part {
+    display: block;
+  }
+  .sp_part {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pc_part {
+    display: none;
+  }
+  .sp_part {
+    display: block;
+  }
+  section.main-visual {
+    width: 100%;
+    height: 100vh;
+  }
+  section.main-visual .main-text {
+    top: 40%;
+  }
+  section.main-visual h2 {
+    font-size: 8.5vw;
+  }
+  section.main-visual p {
+    font-size: 4.5vw;
+    padding-top: 20px;
+  }
+  .scroll-area {
+    position: absolute;
+    bottom: 40px;
+  }
+  .scroll-area p.scroll-text {
+    font-size: 14px;
+  }
+  .scroll-area p.scroll-line {
+    height: 90px;
+    top: 3em;
+  }
+  .scroll-area p.scroll-line::before {
+    height: 90px;
+  }
+  section.about {
+    width: 100%;
+    height: auto;
+    padding: 180px 0 220px;
+    position: relative;
+  }
+  .about-scroll-area {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .about-scroll-area p.about-scroll-line {
+    width: 1px;
+    height: 80px;
+    background-color: #888888;
+    position: absolute;
+    left: 50%;
+    top: 1.8em;
+  }
+  .about-scroll-area p.about-scroll-line::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 80px;
+    background-color: white;
+    -webkit-animation: scrollLine 1.6s ease infinite;
+            animation: scrollLine 1.6s ease infinite;
+    position: absolute;
+    left: 0;
+  }
+  .ab-main-title h2 {
+    font-size: 9.5vw;
+  }
+  .about-contents {
+    width: 100%;
+    height: auto;
+    margin: 60px 0;
+    display: block;
+  }
+  .left-contents {
+    width: 100%;
+  }
+  .left-contents img {
+    width: 100%;
+  }
+  .right-contents {
+    width: 100%;
+  }
+  .right-contents h3 {
+    padding-top: 20px;
+    font-size: 24px;
+  }
+  .right-contents p {
+    font-size: 18px;
+    padding: 10px 0;
+  }
+  .profile-text {
+    padding: 10px 0;
+  }
+  .profile-text p {
+    font-size: 18px;
+  }
+  .history {
+    width: 100%;
+    height: auto;
+  }
+  .history h3 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .history ul {
+    margin: 10px 0;
+  }
+  .history ul li {
+    padding: 20px 0;
+    border-bottom: 1px solid #fff;
+  }
+  .history ul li .date {
+    font-size: 20px;
+    padding: 10px 0;
+  }
+  section.portfolio {
+    width: 100%;
+    height: auto;
+    padding: 180px 0;
+    position: relative;
+  }
+  .port-scroll-area {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .port-scroll-area p.port-scroll-line {
+    width: 1px;
+    height: 80px;
+    background-color: #888888;
+    position: absolute;
+    left: 50%;
+    top: 1.8em;
+  }
+  .port-scroll-area p.port-scroll-line::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 80px;
+    background-color: white;
+    -webkit-animation: scrollLine 1.6s ease infinite;
+            animation: scrollLine 1.6s ease infinite;
+    position: absolute;
+    left: 0;
+  }
+  .port-main-title {
+    text-align: right;
+    margin: 50px 0;
+  }
+  .port-main-title h2 {
+    font-size: 9.5vw;
+    position: relative;
+  }
+  .port-main-title h2::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    background-color: #fff;
+    -webkit-animation: scrollLineLeft 2s ease infinite;
+            animation: scrollLineLeft 2s ease infinite;
+  }
+  .port-contents {
+    width: 100%;
+    height: auto;
+  }
+  .port-contents ul button {
+    display: none !important;
+  }
+  .port-contents ul li {
+    width: 100%;
+  }
+  .port-contents ul li p.title {
+    padding-top: 20px;
+  }
+  .port-contents ul li img {
+    width: 90%;
+  }
+  section.contact {
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+    margin: 180px auto;
+    position: relative;
+  }
+  .scroll-up {
+    position: absolute;
+    bottom: -60px;
+    right: 50px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .scroll-up img {
+    width: 26px;
+    height: 84px;
+  }
+  .scroll-up:hover {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+  .con-main-title {
+    text-align: center;
+  }
+  .con-main-title h2 {
+    font-size: 9.5vw;
+  }
+  p.con-text {
+    padding: 30px 0;
+    text-align: center;
+  }
+  .contact-button {
+    width: 280px;
+    height: 120px;
+    line-height: 120px;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+  }
+  footer .footer-contents {
+    text-align: left;
+    margin: 0 auto;
+  }
+  footer .footer-contents nav {
+    margin: 80px 0;
+  }
+  footer .footer-contents nav ul {
+    display: block;
+  }
+  footer .footer-contents nav ul li {
+    padding-right: 10px;
+    padding-top: 20px;
+    margin-left: 30px;
+  }
+  footer .footer-contents .copyright {
+    padding: 20px;
+    color: #fff;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
