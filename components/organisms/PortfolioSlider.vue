@@ -21,9 +21,9 @@
             </swiper-slide>
             <swiper-slide class="port-contents-item">
               <img src="~/assets/images/fake.png" alt="">
-              <p class="title">Twitter Clone</p>
-              <p>2001.1.15</p>
-              <p>Go,Gin,React,TypeScript</p>
+              <p class="title">React Trello</p>
+              <p>2020.4</p>
+              <p>React, Redux, TypeScript</p>
             </swiper-slide>
           </swiper>
         </div>
@@ -46,6 +46,7 @@ export default {
     data(){
         return {
             swiperOption:{
+                slidesPerView:2,
                 speed: 1000, //スライドの切り替わりスピード
                 spaceBetween: 30, //各スライドの余白
                 centeredSlides: true,//スライダーを真ん中に
@@ -97,7 +98,7 @@ export default {
       width: 30%;
       opacity: 0.7;
       img {
-        width: 30%;
+        width: 70%;
         opacity: 1;
     }
   }
