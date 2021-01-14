@@ -380,35 +380,6 @@ section.about {
       }
     }
   }
-
-  
-  
-
-  footer {
-    width: 100%;
-    height: auto;
-
-    .footer-contents {
-      text-align: left;
-      margin: 0 auto;
-      nav {
-        margin: 80px 0;
-        ul {
-          display: block;
-          li {
-            padding-right: 10px;
-            padding-top: 20px;
-            margin-left: 30px;
-          }
-        }
-      }
-
-      .copyright {
-        padding: 20px;
-        color: #fff;
-      }
-    }
-  }
 }
 
 

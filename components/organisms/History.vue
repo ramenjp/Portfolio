@@ -5,13 +5,15 @@
           <h2>ABOUT</h2>
         </div>
         <div class="about-contents flex">
-          <div class="left-contents"><img src="~/assets/images/left-img.png" alt=""></div>
+          <div class="left-contents"><img src="~/assets/images/MyFace.png" alt=""></div>
           <div class="right-contents">
             <h3>Yosuke Takagi</h3>
             <p>1996/6/23 (Age: 24) </p>
             <p>Software Engineer</p>
+            <p>関東県在住</p>
+            <p>写真は目つきの悪い自分です。</p>
             <div class="profile-skill">
-            <h3>言語</h3>
+            <h3>言語 / FW</h3>
               <ul class="profile-skill-list">
                 <li><img src="~/assets/svg/React.svg" class="profile-skill-item"></li>
                 <li><img src="~/assets/svg/Redux.svg" class="profile-skill-item"></li>

@@ -7,10 +7,11 @@
         <div class="port-contents">
           <swiper :options="swiperOption" class="port-contents-list">
             <swiper-slide class="port-contents-item">
-              <img src="~/assets/images/fake.png" alt="">
+              <img src="~/assets/images/TwitterClone.png" alt="">
               <p class="title">Twitter Clone</p>
               <p>2021.1.15</p>
               <p>Go,Gin,React,TypeScript</p>
+               <p>GoとReactの練習のために作成。</p>
             </swiper-slide>
             <swiper-slide class="port-contents-item">
               <img src="~/assets/images/AfterMountain.png" alt="">
@@ -24,6 +25,7 @@
               <p class="title">React Trello</p>
               <p>2020.4</p>
               <p>React, Redux, TypeScript</p>
+              <p>バックエンドなし。初めてReact,Reduxを勉強して作った作品。</p>
             </swiper-slide>
           </swiper>
         </div>

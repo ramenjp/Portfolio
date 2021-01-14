@@ -13,7 +13,6 @@
   </footer>
 </template>
 
-
 <script>
 export default {}
 </script>
@@ -22,10 +21,8 @@ export default {}
 footer {
   width: 100%;
   height: auto;
-
   .footer-contents {
     text-align: center;
-
     nav {
       margin: 80px 0;
       ul {
