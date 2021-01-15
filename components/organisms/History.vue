@@ -11,7 +11,7 @@
             <p>1996/6/23 (Age: 24) </p>
             <p>Software Engineer</p>
             <p>関東県在住</p>
-            <p>写真は目つきの悪い自分です。</p>
+            <p>パスポートの写真で失礼します</p>
             <div class="profile-skill">
             <h3>言語 / FW</h3>
               <ul class="profile-skill-list">
@@ -37,7 +37,7 @@
         <ul>
           <li>
             <div class="date">2020.5 ~</div>
-            <p>株式会社HRBrainでフロントエンドエンジニアとして従事。</p>
+            <p>株式会社HRBrainでフロントエンドエンジニアとして従事。オウンドメディア,LPをNuxt.jsで、コーポレートサイトをGatsby.jsで,HRBrainサービス管理画面をReactで開発している。</p>
           </li>
           <li>
             <div class="date">2019.4 ~ 2020.5</div>
