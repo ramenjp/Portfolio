@@ -84,6 +84,7 @@ section.main-visual {
   .main-text {
     position: absolute;
     top: 35%;
+    color:gray;
   }
   h2 {
     font-size: 70px;
